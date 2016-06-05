@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/green"
+    android:layout_height="180dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewForNDH"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/windows8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aman Singh(Amendra)"
+        android:layout_toRightOf="@+id/imageViewForNDH"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nameNDH"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="amansingh0624@gmail.com"
+        android:layout_toRightOf="@+id/imageViewForNDH"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/nameNDH"
+        android:id="@+id/emailNDH"/>
+
+</RelativeLayout>
